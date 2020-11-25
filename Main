@@ -42,7 +42,7 @@ public class Main {
             } 
         }while(pilihan!=5);
     }
-    void input(){
+    private void input(){
         System.out.println("1. Parkir perjam");
         System.out.println("2. Parkir menginap");
         System.out.println("Pilihan parkir = ");
@@ -90,7 +90,7 @@ public class Main {
         }
     }
     
-    void lihatdata(){
+    private void lihatdata(){
         System.out.println("1. Parkir perjam");
         System.out.println("2. Parkir perhari");
         System.out.println("Lihat data no :");
@@ -138,7 +138,7 @@ public class Main {
         }
     }
     
-    void delete(){
+    private void delete(){
         System.out.println("1. Parkir perjam");
         System.out.println("2. Parkir menginap");
         System.out.print("Data dari parkir mana yang mau dihapus? ");
@@ -177,7 +177,7 @@ public class Main {
         }
     }
     
-    void cetaknota(){
+    private void cetaknota(){
         System.out.println("1. Cetak nota untuk parkir perjam");
         System.out.println("2. Cetak nota untuk parkir menginap");
         System.out.println("Cetak nota no ");
