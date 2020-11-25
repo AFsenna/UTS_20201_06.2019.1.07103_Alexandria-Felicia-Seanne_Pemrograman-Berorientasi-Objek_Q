@@ -10,8 +10,8 @@ import java.util.Date;
 public class Main {    
     private static Scanner input = new Scanner(System.in);
     private static KendaraanModel kendaraanModel = new KendaraanModel();
-    private static NotaPerjamModel notaperjamModel = new NotaPerjamModel();
-    private static NotaPerhariModel notaperhariModel = new NotaPerhariModel();
+    private static NotaPerJamModel notaperjamModel = new NotaPerJamModel();
+    private static NotaPerHariModel notaperhariModel = new NotaPerHariModel();
     private static int loopjam,loophari,nonotajam,nonotahari;
     
     public static void main(String[] args) {
